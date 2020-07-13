@@ -4,7 +4,21 @@
         <meta charset="UTF-8">
         <title>Product Landing Page</title>
         <style>
-            body {
+            #header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+
+            #form {
+                display: flex;
+            }
+
+            @media all and (max-width: 480px) {
+                p {
+                    font-size: 25px;
+                }
             }
         </style>
     </head>
@@ -19,7 +33,7 @@
             </nav>
         </header>
         <section id="features">
-
+            <p>Hello, World!</p>
         </section>
         <section id="how-it-works">
             <iframe id="video"
